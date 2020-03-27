@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 14px Roboto, sans_serif;
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;  
+}
+
+input, button, textarea {
+    font: 400 18px Roboto, sans_serif;
+
+}
+
+
+button  {
+    cursor: pointer;
+}
+
+
+form input {
+    width: 100%;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0px 24px;
+}
+
+
+
+.button {
+    width: 100%;
+    height: 60px;
+    background: #e02041;
+    border: 0px;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700; /*Negrito (ou colocar bold)*/
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+}
+
+
+
+.button:hover { /*Um selector utilizado para fazer alguma transação (ler o transition acima)*/
+
+    filter: brightness(0.9); /*Colocar 90% no parâmetro também funciona*/
+}
+
+
+.back-link {
+    display: flex;
+    align-items: center; /*deixa o ícone e o texto "retos*/
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.logon-conteiner section.form form a svg {
+    margin-right: 8px;
+}
+
+.logon-conteiner section.form form a:hover {
+    opacity: 0.8; /*ou 80%*/ 
+}
