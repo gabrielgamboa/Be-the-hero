@@ -11,7 +11,7 @@ export default function Logon() {
     return (
         <div className="logon-conteiner">
             <section className="form">
-                <img src={logoImg} alt="Be the hero" />
+                <img src={logoImg} alt="Be The Hero" />
 
                 <form>
                     <h1>Faça seu Logon</h1>
