@@ -16,7 +16,7 @@ export default function Register() {
                     <h1>Cadastro</h1>
                     <p>Faça seu cadastro, entre na plataforma e ajude as pessoas a encontrarem os casos da sua ONG.</p>
 
-                    <Link className="back-link" to="/register"> {/* Usar o componente Link to ao invés de "a href para não ter que carregar novamente todo o HTML. Assim, ele apenas troca de rota, e não recarrega o React do zero." */}
+                    <Link className="back-link" to="/"> {/* Usar o componente Link to ao invés de "a href para não ter que carregar novamente todo o HTML. Assim, ele apenas troca de rota, e não recarrega o React do zero." */}
                         <FiArrowLeft size={16} color="#E02041" />
                         Não tenho cadastro
                     </Link>
